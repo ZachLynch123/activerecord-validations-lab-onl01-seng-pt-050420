@@ -1,3 +1,3 @@
 class Author < ActiveRecord::Base
-  validations
+  validates :name, :presence 
 end
